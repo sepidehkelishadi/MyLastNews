@@ -1,0 +1,598 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context="com.pishtaz.mylastnews.ui.fragments.NewsInfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--NEWS Header-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:id="@+id/pbLoading"
+                    style="@style/Widget.AppCompat.ProgressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+
+                <ImageView
+                    android:id="@+id/ivNewsInfoPic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/ivNewsInfoCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/transparent.black"
+                android:gravity="center"
+                android:padding="3dp">
+
+                <TextView
+                    android:id="@+id/tvNewsInfoTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_large" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <!--NEWS Info-->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f9f9f9"
+                android:gravity="right|center_vertical"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tvNewsInfoText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_normal" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--delete these-->
+        <!--Main Info of Apk-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".8"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:orientation="vertical">
+                <!--Apk-Title-->
+                <TextView
+                    android:id="@+id/tvApkTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:maxLines="2"
+                    android:textSize="@dimen/font_large"
+                    android:textStyle="bold" />
+                <!--Apk-Creator-->
+                <TextView
+                    android:id="@+id/tvApkCreator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textSize="@dimen/font_normal" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="7dp"
+                android:layout_height="match_parent" />
+
+            <!--Apk-Image-->
+            <ImageView
+                android:id="@+id/ivApkImage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:adjustViewBounds="true"
+                android:src="@drawable/image_logo" />
+
+        </LinearLayout>
+        <!--install toolbar-->
+        <LinearLayout
+            android:id="@+id/llInstallToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".25"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingEnd="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingStart="10dp"
+            android:visibility="gone">
+
+            <!--download apk button-->
+            <!--<ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:id="@+id/ivDownloadApk"
+            android:background="@color/green" />-->
+
+            <!--download apk button-->
+            <LinearLayout
+                android:id="@+id/linearDownload"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:background="@color/green"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvDownloadApk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:paddingRight="10dp"
+                android:text="@string/freeApp"
+                android:textSize="@dimen/font_normal"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:background="#f9f9f9"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <!--no internet connection-->
+            <LinearLayout
+                android:id="@+id/llNoInternetConnection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+                <!--empty-view-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+                <!--try again-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ivTryAgain"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:src="@drawable/try_again_icon" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="تلاش دوباره"
+                        android:textColor="@color/gray_dark"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <!--empty-view-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <!--More Details ScrollView-->
+            <ScrollView
+                android:id="@+id/svMoreApkDetails"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!--more details: cat, version, size, ...-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="#f9f9f9"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <!--column 1: Rate-->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2">
+
+                        </LinearLayout>
+
+                        <!--column 2: more details: values-->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right|center_vertical"
+
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvApkSubject"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:maxLines="1"
+                                android:textColor="@color/gray_dark"
+                                android:textSize="@dimen/font_normal" />
+
+                            <TextView
+                                android:id="@+id/tvApkVersion"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:maxLines="1"
+                                android:textColor="@color/gray_dark"
+                                android:textSize="@dimen/font_normal" />
+
+                            <TextView
+                                android:id="@+id/tvApkSize"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:maxLines="1"
+                                android:textColor="@color/gray_dark"
+                                android:textSize="@dimen/font_normal" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent" />
+
+                        <!--column 3: more details: titles-->
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".75"
+                            android:gravity="left|center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:maxLines="1"
+                                android:text="@string/info.subject"
+                                android:textColor="@color/gray"
+                                android:textSize="@dimen/font_normal" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:maxLines="1"
+                                android:text="@string/info.version"
+                                android:textColor="@color/gray"
+                                android:textSize="@dimen/font_normal" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:maxLines="1"
+                                android:text="@string/info.size"
+                                android:textColor="@color/gray"
+                                android:textSize="@dimen/font_normal" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@color/gray" />
+
+
+                    <!--APK pics-->
+                    <LinearLayout
+                        android:id="@+id/linearLayoutVideo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#f9f9f9"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight=".3"
+                            android:gravity="right|center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:maxLines="1"
+                                android:text="@string/info_video"
+                                android:textSize="@dimen/font_normal"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <!--horizontal list-view for Apk-Pics-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingStart="10dp">
+
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageViewPlayVideo"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent" />
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/play_empty" />
+
+
+                            </FrameLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@color/gray" />
+
+
+                    <!--APK pics-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#f9f9f9"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight=".3"
+                            android:gravity="right|center_vertical"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:maxLines="1"
+                                android:text="@string/info.pics"
+                                android:textSize="@dimen/font_normal"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <!--horizontal list-view for Apk-Pics-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:paddingStart="10dp">
+
+                            <com.pishtaz.mylastnews.utils.HorizontalListView
+                                android:id="@+id/hlvApkPics"
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                android:clickable="false"
+                                android:focusable="false"
+                                android:layoutDirection="rtl" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@color/gray" />
+
+                    <!--Comments-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#f9f9f9"
+                        android:gravity="right|center_vertical"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <!--comment's title-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:maxLines="1"
+                            android:paddingEnd="5dp"
+                            android:paddingRight="5dp"
+                            android:text="@string/info.comments"
+                            android:textSize="@dimen/font_normal"
+                            android:textStyle="bold" />
+
+                        <!-- comment's value-->
+                        <TextView
+                            android:id="@+id/tvApkComments"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/white"
+                            android:gravity="right"
+                            android:padding="5dp"
+                            android:text="salam"
+                            android:textSize="@dimen/font_normal" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@color/gray" />
+
+                    <!--accesses-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#f9f9f9"
+                        android:gravity="right|center_vertical"
+
+                        android:orientation="vertical"
+                        android:padding="10dp">
+                        <!--accesses's title-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:maxLines="1"
+                            android:paddingEnd="5dp"
+                            android:paddingRight="5dp"
+                            android:text="@string/info.accesses"
+                            android:textSize="@dimen/font_normal"
+                            android:textStyle="bold" />
+                        <!-- accesses's value-->
+                        <TextView
+                            android:id="@+id/tvApkAccesses"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/white"
+                            android:gravity="right"
+                            android:padding="5dp"
+                            android:textSize="@dimen/font_normal" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffebebeb"
+    android:orientation="vertical"
+    tools:context="com.pishtaz.mylastnews.ui.fragments.menu.MenuFragment">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.pishtaz.mylastnews.ui.fragments.menu.MenuFragment">
+
+            <ListView
+                android:id="@+id/listView_left_drawer"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="end"
+                android:background="#ffebebeb"
+                android:choiceMode="singleChoice"
+                android:divider="@null"
+                android:dividerHeight="0dp" />
+
+            <ExpandableListView
+                android:id="@+id/left_drawer"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="end"
+                android:background="#ffebebeb"
+                android:choiceMode="singleChoice"
+                android:divider="@null"
+                android:dividerHeight="0dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

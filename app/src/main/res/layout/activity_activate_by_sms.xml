@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:gravity="center"
+    android:background="#ffefefef"
+    tools:context="mp4.group.pishtaz.com.mp4.register.ActivateBySmsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:text="فعال سازی حساب کاربری"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="17sp"
+
+            android:typeface="monospace"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/primary"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+       >
+
+        <TextView
+            android:text="یک پیامک برای شما ارسال گردیده است. لطفا کد ارسال شده را در کادر زیر وارد کنید و بر روی دکمه ادامه کلیک کنید"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:typeface="monospace"
+
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+           android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:textColor="#000"
+                android:typeface="monospace"
+                android:gravity="center_vertical"
+                android:layout_marginRight="15dp"
+                android:text="ممکن است ارسال پیامک ، با توجه به نوع اپراتور شما با تاخیر برسد
+" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:src="@drawable/alert_icon" />
+
+        </LinearLayout>
+
+        <!--   <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="0.5"
+
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:background="#ff527aff" />
+
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="3"
+                   android:gravity="center_vertical"
+                   android:textColor="#000"
+                   android:text="Ø´Ù…Ø§ Ø¨Ø¹Ø¯ Ø§Ø² Ù¾Ø§Ù†Ø²Ø¯Ù‡ Ø¯Ù‚ÛŒÙ‚Ù‡ Ù…ÛŒØªÙˆØ§Ù†ÛŒØ¯ Ø¯Ø±Ø®ÙˆØ§Ø³Øª Ø§Ø±Ø³Ø§Ù„ Ù…Ø¬Ø¯Ø¯ Ø±Ø§ Ø§Ù†Ø¬Ø§Ù… Ø¨Ø¯Ù‡ÛŒØ¯
+   " />
+
+
+           </LinearLayout>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/edittextMobile"
+            android:singleLine="true"
+            android:hint="کد فعال سازی"
+            android:imeOptions="actionDone"
+            android:typeface="monospace"
+            android:inputType="number"
+            android:layout_weight="3" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:typeface="monospace"
+        android:textColor="@color/primary"
+        android:id="@+id/textViewActivate"
+
+        android:text="ادامه"/>
+
+
+</LinearLayout>

@@ -1,0 +1,779 @@
+[
+    {
+        "CountryID": 4,
+        "Name": "آذربايجان ",
+        "CountryCallingCode": "994",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 10,
+        "Name": "آرژانتين ",
+        "CountryCallingCode": "54",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 11,
+        "Name": "آفريقاي جنوبي",
+        "CountryCallingCode": "27",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 12,
+        "Name": "آفريقاي مركزي",
+        "CountryCallingCode": "236",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 13,
+        "Name": "آلاسكا ",
+        "CountryCallingCode": "1907",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 14,
+        "Name": "آلباني",
+        "CountryCallingCode": "355",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 15,
+        "Name": "آلمان",
+        "CountryCallingCode": "49",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 2,
+        "Name": "آمریکا",
+        "CountryCallingCode": "1",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 19,
+        "Name": "آنگوئيلا ",
+        "CountryCallingCode": "1264",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 20,
+        "Name": "آنگولا ",
+        "CountryCallingCode": "244",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 21,
+        "Name": "اتريش ",
+        "CountryCallingCode": "43",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 22,
+        "Name": "اتيوپي ",
+        "CountryCallingCode": "251",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 23,
+        "Name": "اردن ",
+        "CountryCallingCode": "962",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 5,
+        "Name": "ارمنستان  ",
+        "CountryCallingCode": "374",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 24,
+        "Name": "اروبا ",
+        "CountryCallingCode": "297",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 25,
+        "Name": "اروگوئه ",
+        "CountryCallingCode": "598",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 6,
+        "Name": "اريتره ",
+        "CountryCallingCode": "291",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 7,
+        "Name": "ازبكستان ",
+        "CountryCallingCode": "7371",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 16,
+        "Name": "اسپانيا ",
+        "CountryCallingCode": "34",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 59,
+        "Name": "استرالیا",
+        "CountryCallingCode": "61",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 60,
+        "Name": "افغانستان",
+        "CountryCallingCode": "93",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 65,
+        "Name": "امارات متحده عربی",
+        "CountryCallingCode": "971",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 61,
+        "Name": "انگلستان",
+        "CountryCallingCode": "44",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 62,
+        "Name": "اوکراین",
+        "CountryCallingCode": "380",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 63,
+        "Name": "ایتالیا",
+        "CountryCallingCode": "39",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 1,
+        "Name": "ایران",
+        "CountryCallingCode": "98",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 64,
+        "Name": "بحرین",
+        "CountryCallingCode": "973",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 17,
+        "Name": "برزيل ",
+        "CountryCallingCode": "55",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 18,
+        "Name": "برمودا ",
+        "CountryCallingCode": "1441",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 26,
+        "Name": "بروني ",
+        "CountryCallingCode": "673",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 27,
+        "Name": "بلژيك ",
+        "CountryCallingCode": "32",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 28,
+        "Name": "بلغارستان ",
+        "CountryCallingCode": "359",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 29,
+        "Name": "بنگلادش ",
+        "CountryCallingCode": "880",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 30,
+        "Name": "بوسني هرزگوين  ",
+        "CountryCallingCode": "387",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 31,
+        "Name": "بوليوي ",
+        "CountryCallingCode": "591",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 32,
+        "Name": "پاراگوئه ",
+        "CountryCallingCode": "595",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 33,
+        "Name": "پاكستان ",
+        "CountryCallingCode": "92",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 34,
+        "Name": "پاناما ",
+        "CountryCallingCode": "507",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 35,
+        "Name": "پرتغال ",
+        "CountryCallingCode": "351",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 36,
+        "Name": "پرتوريكو ",
+        "CountryCallingCode": "1787",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 37,
+        "Name": "پرو ",
+        "CountryCallingCode": "51",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 38,
+        "Name": "تاجيكستان ",
+        "CountryCallingCode": "992",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 39,
+        "Name": "تانزانيا ",
+        "CountryCallingCode": "255",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 40,
+        "Name": "تايلند ",
+        "CountryCallingCode": "66",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 41,
+        "Name": "تايوان ",
+        "CountryCallingCode": "886",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 42,
+        "Name": "تركمنستان ",
+        "CountryCallingCode": "993",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 43,
+        "Name": "تركيه ",
+        "CountryCallingCode": "90",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 66,
+        "Name": "تونس",
+        "CountryCallingCode": "216",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 69,
+        "Name": "جمهوری چک",
+        "CountryCallingCode": "42",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 67,
+        "Name": "چاد",
+        "CountryCallingCode": "237",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 68,
+        "Name": "چین",
+        "CountryCallingCode": "86",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 70,
+        "Name": "دانمارک",
+        "CountryCallingCode": "45",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 71,
+        "Name": "دومینیکا",
+        "CountryCallingCode": "508",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 72,
+        "Name": "روسیه",
+        "CountryCallingCode": "7095",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 44,
+        "Name": "روماني ",
+        "CountryCallingCode": "40",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 45,
+        "Name": "زئير ",
+        "CountryCallingCode": "243",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 46,
+        "Name": "زامبيا ",
+        "CountryCallingCode": "260",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 47,
+        "Name": "زلاند نو ",
+        "CountryCallingCode": "64",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 48,
+        "Name": "زيمبابوه ",
+        "CountryCallingCode": "263",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 49,
+        "Name": "ژاپن ",
+        "CountryCallingCode": "81",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 50,
+        "Name": "ساحل عاج  ",
+        "CountryCallingCode": "225",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 51,
+        "Name": "سريلانكا ",
+        "CountryCallingCode": "94",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 52,
+        "Name": "سنگاپور ",
+        "CountryCallingCode": "65",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 53,
+        "Name": "سنگال ",
+        "CountryCallingCode": "221",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 54,
+        "Name": "سوئد ",
+        "CountryCallingCode": "46",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 55,
+        "Name": "سوئيس ",
+        "CountryCallingCode": "4158",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 56,
+        "Name": "سودان ",
+        "CountryCallingCode": "249",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 57,
+        "Name": "سوريه ",
+        "CountryCallingCode": "963",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 58,
+        "Name": "سومالي ",
+        "CountryCallingCode": "252",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 73,
+        "Name": "شیلی",
+        "CountryCallingCode": "56",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 3,
+        "Name": "عراق",
+        "CountryCallingCode": "964",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 74,
+        "Name": "عربستان",
+        "CountryCallingCode": "96",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 75,
+        "Name": "عمان",
+        "CountryCallingCode": "968",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 76,
+        "Name": "فرانسه",
+        "CountryCallingCode": "33",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 77,
+        "Name": "فنلاند",
+        "CountryCallingCode": "358",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 78,
+        "Name": "فیلیپین",
+        "CountryCallingCode": "63",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 79,
+        "Name": "قبرس",
+        "CountryCallingCode": "357",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 80,
+        "Name": "قرقیزستان",
+        "CountryCallingCode": "7331",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 81,
+        "Name": "قطر",
+        "CountryCallingCode": "974",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 91,
+        "Name": "گرجستان",
+        "CountryCallingCode": "955",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 8,
+        "Name": "گويان",
+        "CountryCallingCode": "594",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 9,
+        "Name": "گينه جديد",
+        "CountryCallingCode": "675",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 92,
+        "Name": "لبنان",
+        "CountryCallingCode": "961",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 93,
+        "Name": "لهستان",
+        "CountryCallingCode": "48",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 94,
+        "Name": "لوکزامبورگ",
+        "CountryCallingCode": "352",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 95,
+        "Name": "لیبی",
+        "CountryCallingCode": "218",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 96,
+        "Name": "مالدیو",
+        "CountryCallingCode": "960",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 97,
+        "Name": "مالزی",
+        "CountryCallingCode": "60",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 98,
+        "Name": "مجارستان",
+        "CountryCallingCode": "36",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 99,
+        "Name": "مراکش",
+        "CountryCallingCode": "212",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 100,
+        "Name": "مصر",
+        "CountryCallingCode": "20",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 101,
+        "Name": "مغولستان",
+        "CountryCallingCode": "976",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 102,
+        "Name": "موزامبیک",
+        "CountryCallingCode": "258",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 103,
+        "Name": "مکزیک",
+        "CountryCallingCode": "52",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 104,
+        "Name": "نروژ",
+        "CountryCallingCode": "47",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 105,
+        "Name": "هلند",
+        "CountryCallingCode": "31",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 106,
+        "Name": "هند",
+        "CountryCallingCode": "91",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 107,
+        "Name": "هنگ کنگ",
+        "CountryCallingCode": "752",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 108,
+        "Name": "ونزوئلا",
+        "CountryCallingCode": "58",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 109,
+        "Name": "ویتنام",
+        "CountryCallingCode": "84",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 82,
+        "Name": "کانادا",
+        "CountryCallingCode": "1",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 83,
+        "Name": "کره جنوبی",
+        "CountryCallingCode": "82",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 84,
+        "Name": "کره شمالی",
+        "CountryCallingCode": "850",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 85,
+        "Name": "کرواسی",
+        "CountryCallingCode": "385",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 86,
+        "Name": "کلمبیا",
+        "CountryCallingCode": "57",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 87,
+        "Name": "کنگو",
+        "CountryCallingCode": "242",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 88,
+        "Name": "کنیا",
+        "CountryCallingCode": "254",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 89,
+        "Name": "کوبا",
+        "CountryCallingCode": "53",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 90,
+        "Name": "کویت",
+        "CountryCallingCode": "965",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 110,
+        "Name": "یوگسلاوی",
+        "CountryCallingCode": "381",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    },
+    {
+        "CountryID": 111,
+        "Name": "یونان",
+        "CountryCallingCode": "30",
+        "InternationalCallPrefix": "00",
+        "TrunkPrefix": "0"
+    }
+]

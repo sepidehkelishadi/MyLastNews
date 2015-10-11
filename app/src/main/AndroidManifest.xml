@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pishtaz.mylastnews">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/news_logo_new"
+        android:label="@string/app_name"
+        android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar.TranslucentStatus">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar.TranslucentStatus">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".receivers.DateChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+
+        <activity
+            android:name=".ui.activities.PlayVideoNews"
+            android:screenOrientation="landscape"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar.TranslucentStatus" />
+        <activity
+            android:name=".OtherAppActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name=".ui.activities.ApkPicsActivity"
+            android:label="@string/title_activity_apk_pics"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <receiver android:name=".widget.MyLastNewsWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/my_last_news_widget_info" />
+        </receiver>
+
+        <service
+            android:name=".widget.StackWidgetService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <activity
+            android:name=".ui.activities.DetailNews"
+            android:label="@string/title_activity_detail_news"
+            android:theme="@style/Theme.DesignDemo">
+            <intent-filter>
+                <action android:name="com.pishtaz.mylastnews.ui.activities.DetailNews" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.fragments.search.SearchActivity"
+            android:theme="@style/Theme.DesignDemo" />
+        <activity
+            android:name=".ui.activities.MenuHoldingActivity"
+            android:theme="@style/Theme.DesignDemo" />
+
+        <activity
+            android:name=".ui.activities.DetailImagesActivity"
+            android:theme="@style/Theme.DesignDemo" />
+
+        <service android:name=".update.MyWebService" />
+
+        <activity
+            android:name=".ui.activities.DetailNewsPager"
+            android:label="@string/title_activity_detail_news_pager"
+            android:theme="@style/Theme.DesignDemo" />
+        <activity
+            android:name=".ui.fragments.search.DetailNewsPagerSearch"
+            android:label="@string/title_activity_detail_news_pager"
+            android:theme="@style/Theme.DesignDemo" />
+        <activity
+            android:name=".ui.fragments.menu.SettingActivity"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/Theme.DesignDemo"/>
+        <activity
+            android:name=".update.UpdateActivity"
+            android:label="@string/title_activity_update"/>
+        <activity android:name=".ui.fragments.menu.ChooseOwnerActivity" />
+
+        <activity
+            android:name=".ui.fragments.menu.ChooseFontActivity"
+            android:theme="@style/MyActivityDialogTheme" />
+
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="news.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="4" />
+
+        <receiver android:name=".receivers.NewPackageReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_FIRST_LAUNCH" />
+                <!--<action android:name="android.intent.action.PACKAGE_CHANGED" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".AboutAppActivity"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar.TranslucentStatus">
+        </activity>
+
+    </application>
+
+</manifest>

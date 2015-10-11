@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeVideo"
+    android:layout_width="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:layout_height="match_parent"
+    android:clickable="true">
+
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/videoSurfaceContainer"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <VideoView
+                android:id="@+id/VideoView"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+
+
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                style="@style/Widget.AppCompat.ProgressBar"
+                android:id="@+id/progressbarVideo"/>
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+
+            android:visibility="gone"
+            android:id="@+id/linearAllVideo"
+            android:gravity="bottom"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/songCurrentDurationLabel"
+                android:layout_width="0dp"
+                android:shadowColor="#eaeaea"
+                android:shadowDx="1"
+                android:shadowDy="1"
+
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold" />
+            <!-- Total Duration Label -->
+
+            <SeekBar
+                android:id="@+id/songProgressBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="6"
+                android:layout_gravity="bottom"
+
+
+                android:layout_marginBottom="5dp"
+
+                />
+
+            <TextView
+                android:id="@+id/songTotalDurationLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:shadowColor="#eaeaea"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:layout_marginBottom="5dp"
+                android:gravity="right"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/btnPlay"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:visibility="gone"
+            android:src="@drawable/play_empty"
+            android:layout_width="wrap_content" />
+
+
+     <!--   <com.pishtaz.mylastnews.utils.PlayPauseView
+            android:id="@+id/play_pause_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:alpha=".9"
+
+            android:foreground="?android:selectableItemBackground"
+          />
+-->
+
+        <LinearLayout
+            android:id="@+id/player_footer_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+
+
+            android:gravity="center">
+
+            <!-- Player Buttons -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+                <!-- Previous Button -->
+
+                <!-- Backward Button -->
+                <ImageButton
+                    android:id="@+id/btnBackward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/ic_media_rew"
+                    android:visibility="gone" />
+                <!-- Play Button -->
+
+                <!-- Forward Button -->
+                <ImageButton
+                    android:id="@+id/btnForward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/ic_media_ff"
+                    android:visibility="gone" />
+                <!-- Next Button -->
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/ivPlayCenter"
+        android:layout_centerInParent="true"
+        android:src="@drawable/play_empty"/>
+
+
+
+</RelativeLayout>
+
+
+
+

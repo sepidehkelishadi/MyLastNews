@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!--TOOLBAR-->
+    <color name="primary">#b81800</color>
+    <!-- grayscale -->
+    <color name="white">#FFFFFF</color>
+    <color name="gray_lighter">#EDEDED</color>
+    <color name="gray_light">#DBDBDB</color>
+    <color name="gray">#939393</color>
+    <color name="gray_dark">#5F5F5F</color>
+    <color name="black">#323232</color>
+    <!-- basic colors -->
+    <color name="green">#ff27d34d</color>
+    <color name="blue">#2A91BD</color>
+    <color name="orange">#FF9D2F</color>
+    <color name="red">#FF432F</color>
+    <color name="titlestrip_background_color">#DEDEDE</color>
+    <color name="titlestrip_text_color">#999999</color>
+    <color name="item_border_color">#666666</color>
+    <color name="item_default_color">#EEEEEE</color>
+    <color name="item_pressed_color">#CCCCCC</color>
+    <color name="item_activated_color">#77CEEE</color>
+
+    <color name="transparent.black">#88000000</color>
+
+    <integer-array name="google_colors">
+        <item>@color/primary</item>
+        <item>@color/primary</item>
+        <item>@color/primary</item>
+        <item>@color/primary</item>
+    </integer-array>
+
+</resources>
+

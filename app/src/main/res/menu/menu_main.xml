@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/other_app"
+        android:title="محصولات دیگر"
+        android:icon="@drawable/other_app"
+        app:showAsAction="always"
+
+        />
+
+
+    <item android:id="@+id/search"
+        android:title="جست و جو"
+        android:icon="@drawable/search_icon"
+        app:showAsAction="always"
+
+        />
+
+
+</menu>

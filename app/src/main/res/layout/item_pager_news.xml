@@ -1,0 +1,166 @@
+<!--<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="fill_vertical"
+    android:fillViewport="true"
+    android:paddingBottom="60dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--Main Info of Apk-->
+    <android.support.v7.widget.CardView
+        app:cardCornerRadius="1dp"
+        app:cardElevation="3dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/white"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp"
+
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/tvNewsDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="right|center_vertical"
+                    android:textColor="#ababab"
+                    android:textSize="14sp"
+                    android:typeface="serif" />
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cvCategory"
+                    app:cardBackgroundColor="@color/primary"
+
+                    app:cardCornerRadius="1dp"
+                    app:cardElevation="3dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="@color/white"
+                    android:gravity="right|center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/tvCategory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:gravity="right|center_vertical"
+                        android:textColor="#ffffff"
+                        android:textSize="13sp"
+                        android:typeface="monospace" />
+                </android.support.v7.widget.CardView>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tvSourceId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="right|center_vertical"
+                android:textColor="#ababab" />
+
+
+            <com.pishtaz.mylastnews.utils.TextViewEx
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:textSize="18sp"
+                android:typeface="serif" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        app:cardCornerRadius="1dp"
+        app:cardElevation="3dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="right|center_vertical"
+
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvWebNews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:textColor="#5291ea" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+<!--
+    </android.support.v4.widget.NestedScrollView>-->

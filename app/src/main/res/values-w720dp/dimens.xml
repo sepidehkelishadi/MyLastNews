@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header1">300dp</dimen>
+    <dimen name="cat_height">210dp</dimen>
+    <dimen name="khabargozari">14sp</dimen>
+    <dimen name="image_news_item">150dp</dimen>
+</resources>

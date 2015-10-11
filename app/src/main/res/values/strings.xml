@@ -1,0 +1,366 @@
+<resources>
+    <string name="app_name">News</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="error.message.network">Network error</string>
+    <string name="error.message.call">Call failed</string>
+    <string name="error.message.map">Map loading failed</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Json Errors-->
+    <string name="error.json.array">مشکل در دریافت اطلاعات ای پی کی از جی سان</string>
+    <string name="error.json.error_listener">مشکل در دریافت اطلاعات از سرور</string>
+    <string name="error.json.reponse">مشکل در بارگذاری اطلاعات از جی سان</string>
+
+    <!--Apk Info-->
+    <string name="freeApp">رایگان</string>
+    <string name="install">نصب</string>
+
+    <string name="info.subject">موضوع</string>
+    <string name="info.version">نسخه</string>
+    <string name="info.size">حجم</string>
+
+    <string name="info.pics">تصاویر برنامه</string>
+    <string name="info_video">کلیپ نرم افزار</string>
+    <string name="info.comments">توضیحات</string>
+    <string name="info.accesses">دسترسی ها</string>
+
+    <string name="info.accesses.default">هیچ دسترسی مورد نیاز نیست.</string>
+    <string name="install_app_center_msg">برای نصب این محصول ابتدا باید AppCenter را نصب کنید.</string>
+<string name="cancel">انصراف</string>
+    <string name="email_activation">از طریق پست الکترونیک</string>
+    <string name="activation_sms">از طریق پیامک</string>
+    <string name="send">ارسال</string>
+<string name="about_app">درباره محصول</string>
+
+    <string name="activation_email">از طریق پست الکترونیک </string>
+
+    <string name="sendActivation">اارسال کد فعال سازی</string>
+    <string name="activateEmaie">    یک نامه الکترونیک از آدرس pishtazgroup.net   با عنوان فعال سازی   برای شما ارسال گردیده است.لطفا به پست الکترونیک خود مراجعه و نسبت به تایید آن اقدام نمایید.
+ممکن است نامه مذکور در پوشه Spam قرار گرفته باشد.</string>
+    <string name="title_activity_alert_activate_by_email">AlertActivateByEmail</string>
+    <string name="activate_sms">        چنانچه امکان فرستادن پیامک های تبلیغاتی را بسته باشید ، کد فعال سازی را از طریق پیامک نمی توانید دریافت کنید.</string>
+    <string name="title_activity_activate_by_sms">ActivateBySmsActivity</string>
+
+    <string name="newsProduct">اشتراک خبر</string>
+    <string name="email">ایمیل</string>
+    <string name="username">نام کاربری</string>
+    <string name="password_register">رمز عبور</string>
+    <string name="male">مرد</string>
+    <string name="female">زن</string>
+    <string name="gender">چنسیت</string>
+    <string name="age">سن</string>
+    <string name="country_register">کشور</string>
+    <string name="text_heart">عدم نمایش ویدئوهایی که برای افراد دارای ناراحتی های قلبی و یا اعصاب مناسب نیست.</string>
+    <string name="rules">قوانین سایت را مطالعه نموده و قبول دارم</string>
+    <string name="register">ثبت نام</string>
+    <string name="ages_prompt">انتخاب سن</string>
+
+    <string name="install_txt">نصب</string>
+    <string name="open_txt">اجرا</string>
+    <string name="upgrade_txt">ارتقا</string>
+    <string name="installing_txt">در حال نصب</string>
+    <string-array name="day_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+
+    <string-array name="month_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="year_arrays">
+        <item>1394</item>
+        <item>1393</item>
+        <item>1392</item>
+        <item>1391</item>
+        <item>1390</item>
+        <item>1389</item>
+        <item>1388</item>
+        <item>1387</item>
+        <item>1386</item>
+        <item>1385</item>
+        <item>1384</item>
+        <item>1383</item>
+        <item>1382</item>
+        <item>1381</item>
+        <item>1380</item>
+        <item>1379</item>
+        <item>1378</item>
+        <item>1377</item>
+        <item>1376</item>
+        <item>1375</item>
+        <item>1374</item>
+        <item>1373</item>
+        <item>1372</item>
+        <item>1371</item>
+        <item>1370</item>
+        <item>1369</item>
+        <item>1368</item>
+        <item>1367</item>
+        <item>1366</item>
+        <item>1365</item>
+        <item>1364</item>
+        <item>1363</item>
+        <item>1362</item>
+        <item>1361</item>
+        <item>1360</item>
+        <item>1359</item>
+        <item>1358</item>
+        <item>1357</item>
+        <item>1356</item>
+        <item>1355</item>
+        <item>1354</item>
+        <item>1353</item>
+        <item>1352</item>
+        <item>1351</item>
+        <item>1350</item>
+        <item>1349</item>
+        <item>1348</item>
+        <item>1347</item>
+        <item>1346</item>
+        <item>1345</item>
+        <item>1344</item>
+        <item>1343</item>
+        <item>1342</item>
+        <item>1341</item>
+        <item>1340</item>
+        <item>1339</item>
+        <item>1338</item>
+        <item>1337</item>
+        <item>1336</item>
+        <item>1335</item>
+        <item>1334</item>
+        <item>1333</item>
+        <item>1332</item>
+        <item>1331</item>
+        <item>1330</item>
+        <item>1329</item>
+        <item>1328</item>
+        <item>1327</item>
+        <item>1326</item>
+        <item>1325</item>
+        <item>1324</item>
+        <item>1323</item>
+        <item>1322</item>
+        <item>1321</item>
+        <item>1320</item>
+        <item>1319</item>
+        <item>1318</item>
+        <item>1317</item>
+        <item>1316</item>
+        <item>1315</item>
+        <item>1314</item>
+        <item>1313</item>
+        <item>1312</item>
+        <item>1311</item>
+        <item>1310</item>
+        <item>1309</item>
+        <item>1308</item>
+        <item>1307</item>
+        <item>1306</item>
+        <item>1305</item>
+        <item>1304</item>
+        <item>1303</item>
+        <item>1302</item>
+        <item>1301</item>
+        <item>1300</item>
+
+    </string-array>
+
+
+    <string name="country_prompt">انتخاب کشور</string>
+
+
+    <string name="azarbayjan_shargh">آذربایجان شرقی</string>
+    <string name="azarbayjan_gharb">آذربایجان غربی</string>
+    <string name="ardebil">اردبیل</string>
+    <string name="esfahan">اصفهان</string>
+    <string name="alborz">البرز</string>
+    <string name="ilam">ایلام</string>
+    <string name="booshehr">بوشهر</string>
+    <string name="tehran">تهران</string>
+    <string name="chahrmahal_bakhtiari">چهارمحال و بختیاری</string>
+    <string name="khorasan_jonobi">خراسان جنوبی</string>
+    <string name="khorasan_razavi">خراسان رضوی</string>
+    <string name="khorasan_shomali">خراسان شمالی</string>
+    <string name="khoozestan">خوزستان</string>
+    <string name="zanjan">زنجان</string>
+    <string name="semnan">سمنان</string>
+    <string name="sistan_baloochestan">سیستان و بلوچستان</string>
+    <string name="fars">فارس</string>
+    <string name="ghazvin">قزوین</string>
+    <string name="ghom">قم</string>
+    <string name="kordestan">کردستان</string>
+    <string name="kerman">کرمان</string>
+    <string name="kermanshah">کرمانشاه</string>
+    <string name="kohgilooye">کهگیلویه و بویراحمد</string>
+    <string name="golestan">گلستان</string>
+    <string name="gila">گیلان</string>
+    <string name="lorestan">لرستان</string>
+    <string name="mazandaran">مازندران</string>
+    <string name="markazi">مرکزی</string>
+    <string name="hormozgan">هرمزگان</string>
+    <string name="hamedan">همدان</string>
+    <string name="yazd">یزد</string>
+    <string name="safhe_asli">صفحه اصلی</string>
+    <string name="vorod">ورود</string>
+    <string name="sabtenam">ثبت نام</string>
+    <string name="ghavanin">قوانین</string>
+    <string name="mahsoolate_ma">محصولات ما</string>
+    <string name="khoroj">خروج</string>
+    <array name="searchBy">
+        <item>براساس عنوان</item>
+    </array>
+    <string name="title_activity_zoom_photo">ZoomPhotoActivity</string>
+
+    <string name="utilities_menu">برنامه های کاربردی</string>
+    <string name="games_menu">بازی ها</string>
+    <string name="educational_menu">آموزشی</string>
+    <string name="kids_menu">کودکان</string>
+    <string name="title_activity_apk_pics">ApkPicsActivity</string>
+
+    <string name="newProduct">تازه ها</string>
+    <string name="favProduct">محبوب ترین ها</string>
+    <string name="utilProduct">برنامه های کاربردی</string>
+    <string name="tools">ابزارها</string>
+    <string name="educational">آموزشی</string>
+    <string name="games"> سرگرمی</string>
+    <string name="kids">کودکان</string>
+
+    <string name="title_activity_play_video_app">PlayVideoApp</string>
+    <string name="title_activity_no_internet_connection">NoInternetConnectionActivity</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="not_active_your_account">نام کاربری شما فعال نشده است</string>
+    <string name="exit">برای خروج از اپلیکیشن دکمه بازگشت را کلیک کنید</string>
+    <string name="otherApp">این سرویس از اول مرداد در اختیار کاربران قرار خواهد گرفت</string>
+    <string name="welcome_messeage_user">" خوش آمدید"</string>
+    <string name="mp4_title">اشتراک وید ئو</string>
+    <string name="kids_title">اشتراک ویدئو کودک</string>
+    <string name="imagePlusTitle">اشتراک نرم افزار</string>
+    <string name="imageTitle">اشتراک عکس</string>
+    <string name="downloading">در حال دانلود</string>
+    <string name="ourProduct">محصولات ما</string>
+    <string name="please_login">لطفا ابتدا با نام کاربری خود وارد شوید</string>
+    <string name="please_comment">لطفا نظر خود را وارد کنید</string>
+    <string name="send_comment">ارسال نظر</string>
+    <string name="errorConnect">مشکل در برقراری ارتباط</string>
+    <string name="title_activity_detail_news">DetailNews</string>
+    <string name="see_news_web">مشاهده خبر در وب</string>
+    <string name="source_id">"شناسه خبر: "</string>
+    <string name="title_activity_detail_news_pager">DetailNewsPager</string>
+
+    <string name="title_activity_add_picture">AddPictureActivity</string>
+    <string name="upload">آپلود عکس</string>
+    <string name="pic_not_found">موردی یافت نشد</string>
+    <string name="comming_soon">به زودی منتظر خدمات دیگر ما باشید</string>
+    <string name="other_apps">سایر محصولات</string>
+    <string name="comment_sent">پیغام شما با موفقیت ارسال شد</string>
+    <string name="try_again">مشکل در ارسال.مجدد تلاش کنید.</string>
+
+    <string name="wrong_username_pass">نام کاربری یا رمز عبور وارد شوه صحیح نمی باشد</string>
+    <string name="wrong_email">ایمیل وارد شده صحیح نمی باشد</string>
+    <string name="policy">لطفا قوانین سایت را تایید نمایید</string>
+    <string name="email_not_exist">یمیل وارد شده ثبت نمی باشد</string>
+    <string name="register_txt">ثبت نام</string>
+    <string name="upload_success">عکس مورد نظر با موفقیت آپلود گردید</string>
+    <string name="noImageSlected">عکسی انتخاب نشده است</string>
+    <string name="wrongActivationCode">کد وارد شده اشتباه است</string>
+    <string name="wrongPhone">شماره تلفن وارد شده صحیح نمی باشد</string>
+    <string name="iran">ایران</string>
+    <string name="pleaseWait">لطفا منتظر بمانید</string>
+
+    <string name="my_page">صفحه من</string>
+    <string name="firt_news">خبر برگزیده</string>
+    <string name="night_mode">مطالعه در شب</string>
+    <string name="font_size">تغییر سایز فونت</string>
+    <string name="mornng_mode">مطالعه در روز</string>
+    <string name="night_mode_txt">وضعیت مطالعه در شب برای شما فعال گردید</string>
+    <string name="morning_mode_txt">وضعیت مطالعه در روز برای شما فعال گردید</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <string name="setting">تنظیمات</string>
+    <string name="news_txt_size"> اندازه فونت</string>
+    <string name="test">این متن نمونه متن اخبار نمایش داده شده برای شما می باشد</string>
+    <string name="title_activity_update">UpdateActivity</string>
+
+<string name="owner1">
+    خبرگزاری مهر
+</string>
+<string name="owner2">
+خبرگزاری فارس
+</string>
+    <string name="owner3">
+خبرگزاری ایرنا
+</string>
+    <string name="owner4">
+        خبرگزاری تسنیم
+    </string>
+    <string name="owner5">
+باشگاه خبرنگاران جوان
+</string>
+    <string name="title_activity_choose_owner">ChooseOwnerActivity</string>
+<string name="change_saved">
+    تغییرات شما اعمال گردید
+</string>
+<string name="choose_something">
+حداقل بک خبرگذاری را انتخاب نمایید
+</string>
+    <string name="font1">
+        فونت شماره یک
+    </string>
+    <string name="font2">
+        فونت شماره دو
+    </string>
+    <string name="font3">
+        فونت شماره سه
+    </string>
+    <string name="az">" از "</string>
+
+</resources>
